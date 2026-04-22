@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Player</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;background:#000;overflow:hidden}
+#player{width:100%;height:100%}
+</style>
+</head>
+<body>
+<div id="player"></div>
+<script>
+var playerBase = "https://cdn.jsdelivr.net/npm/player-venom@0.3.2/dist/";
+var p = new URLSearchParams(location.search);
+var lampacUrl = p.get('lampacUrl');
+var balancer = p.get('balancer');
+var kpId = p.get('kpId');
+var imdbId = p.get('imdbId');
+var directUrl = p.get('url');
+var title = p.get('title') || '';
+var app = null;
+
+function parseHtmlVoices(html) {
+  var res = [];
+  if (!html || typeof html !== 'string') return res;
+  var rx = /data-json='([^']+)'/g, m;
+  while ((m = rx.exec(html)) !== null) {
+    try {
+      var r = m[1].replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+      var d = JSON.parse(r);
+      var s = d.stream || (d.method === 'play' && d.url) || null;
+      if (s) res.push({ stream: s, voice: d.translate || d.voice_name || 'Оригинал', maxquality: d.maxquality || '', method: d.method || 'play', url: d.url || null });
+    } catch(e) {}
+  }
+  return res;
+}
+
+function fetchCallStream(vd, cb) {
+  var u = vd.url || vd.stream;
+  if (!u) { cb(null); return; }
+  fetch(u, {mode:'cors'}).then(function(r){return r.text()}).then(function(h){
+    var rx = /data-json='([^']+)'/g, m = rx.exec(h);
+    if (!m) { cb(null); return; }
+    try {
+      var r2 = m[1].replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+      var d = JSON.parse(r2);
+      cb(d.stream || d.url || null);
+    } catch(e) { cb(null); }
+  }).catch(function(){ cb(null); });
+}
+
+var venomLoaded = false;
+var venomQueue = null;
+
+function loadVenomScript(cb) {
+  if (venomLoaded) { cb(); return; }
+  var s = document.createElement('script');
+  s.src = playerBase + 'player.js';
+  s.onload = function() { venomLoaded = true; setTimeout(cb, 800); };
+  s.onerror = function() {
+    playerBase = "https://unpkg.com/player-venom@0.3.2/dist/";
+    var s2 = document.createElement('script');
+    s2.src = playerBase + 'player.js';
+    s2.onload = function() { venomLoaded = true; setTimeout(cb, 800); };
+    s2.onerror = function() {
+      document.getElementById('player').innerHTML = '<p style="color:#fff;padding:40px">Не удалось загрузить плеер</p>';
+    };
+    document.head.appendChild(s2);
+  };
+  document.head.appendChild(s);
+}
+
+function makeVenomPlayer(hlsUrl, audioNames, audioOrder) {
+  loadVenomScript(function() {
+    var opts = {
+      container: document.getElementById('player'),
+      publicPath: playerBase,
+      ads: false,
+      defaultPoster: '',
+      speed: [1, 1.1, 1.25, 1.5, 1.75, 2],
+      volume: 1,
+      preventExternalSilencing: true,
+      aspectRatio: 'fill',
+      mini: 320,
+      theme: 'classic',
+      cssVars: {
+        'color-text': 'rgba(255,255,255,1)',
+        'border-radius': '0rem',
+        'color-buttons': 'rgba(255,255,255,1)',
+        'color-primary': 'rgba(0,217,231,1)',
+        'background-color-primary': 'rgba(0,0,0,0.6)',
+        'button-icon-color': 'rgba(255,255,255,1)'
+      },
+      title: title,
+      source: { hls: hlsUrl },
+      hlsNativeQuality: 'resolutionFilter',
+      hlsNativeParam: true,
+      p2p: {
+        ch: function(manifestUrl, live, type) {
+          var u = new URL(manifestUrl), m;
+          m = u.pathname.match(/\/(\w+)\/(?:1080_)?(\w+)\.mp4(?:\/tracks\/)?(.*)\/master\.m3u8/);
+          return m ? m.slice(1).filter(Boolean).join('_') : u.pathname + u.search;
+        }
+      },
+      ui: { pip: true, about: false, share: false, titleOnlyOnFullscreen: false },
+      text: {
+        ads: 'рекламу', screen: 'интро', repeat: 'повтор', titer: 'титры',
+        blocked: 'Видео заблокировано по просьбе правообладателя'
+      },
+      translations: { en: { screen: 'intro', repeat: 'repeat', titer: 'titer', pipIn: 'Picture in Picture', pipOut: 'expand' } }
+    };
+    if (audioNames && audioNames.length) {
+      opts.source.audio = { names: audioNames, order: audioOrder || audioNames.map(function(_,i){return i}) };
+    }
+    try {
+      app = VenomPlayer.make(opts);
+    } catch(e) {
+      console.error('VenomPlayer error:', e);
+      document.getElementById('player').innerHTML = '<p style="color:#fff;padding:40px">Ошибка плеера: ' + e + '</p>';
+    }
+  });
+}
+
+function initLampac() {
+  if (!lampacUrl || !balancer || !kpId) {
+    document.getElementById('player').innerHTML = '<p style="color:#fff;padding:40px">Не указаны параметры</p>';
+    return;
+  }
+
+  var apiUrl = lampacUrl + '/lite/' + encodeURIComponent(balancer) + '?kinopoisk_id=' + encodeURIComponent(kpId);
+  if (imdbId) apiUrl += '&imdb_id=' + encodeURIComponent(imdbId);
+
+  fetch(apiUrl, {mode:'cors'}).then(function(r){
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.text();
+  }).then(function(text){
+    var voices = [];
+    try {
+      var j = JSON.parse(text);
+      if (j && typeof j === 'object' && Array.isArray(j)) {
+        j.forEach(function(item){
+          var s = item.stream || (item.method === 'play' && item.url) || null;
+          if (s) voices.push({ stream: s, voice: item.translate || item.voice_name || 'Оригинал', maxquality: item.maxquality || '', method: item.method || 'play', url: item.url || null });
+        });
+      }
+    } catch(e) { voices = parseHtmlVoices(text); }
+    if (!voices.length) voices = parseHtmlVoices(text);
+
+    if (!voices.length) {
+      document.getElementById('player').innerHTML = '<p style="color:#aaa;padding:40px">Балансер "' + balancer + '" не вернул данные</p>';
+      return;
+    }
+
+    var first = voices[0];
+    var hlsUrl = first.stream || first.url || null;
+
+    if (!hlsUrl) {
+      document.getElementById('player').innerHTML = '<p style="color:#aaa;padding:40px">Нет URL потока</p>';
+      return;
+    }
+
+    var audioNames = voices.map(function(v){ return v.voice + (v.maxquality ? ' ' + v.maxquality : '') });
+    var audioOrder = voices.map(function(_,i){ return i });
+
+    if (first.method === 'call' && first.url && !first.stream) {
+      fetchCallStream(first, function(streamUrl){
+        if (streamUrl) makeVenomPlayer(streamUrl, audioNames, audioOrder);
+        else makeVenomPlayer(hlsUrl, audioNames, audioOrder);
+      });
+    } else {
+      makeVenomPlayer(hlsUrl, audioNames, audioOrder);
+    }
+  }).catch(function(e){
+    document.getElementById('player').innerHTML = '<p style="color:#aaa;padding:40px">Ошибка: ' + e.message + '</p>';
+  });
+}
+
+if (directUrl) {
+  makeVenomPlayer(directUrl, null, null);
+} else if (balancer && kpId && lampacUrl) {
+  initLampac();
+} else {
+  document.getElementById('player').innerHTML = '<p style="color:#aaa;padding:40px">Не указан видеопоток</p>';
+}
+</script>
+</body>
+</html>

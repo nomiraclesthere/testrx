@@ -294,7 +294,7 @@
     "/testrx/assets/mediaUtils-ReacmVh0.js"
   ],
   "node_modules/qrcode.vue/dist/qrcode.vue.esm.js": [
-    "/testrx/assets/Login-5wnlARbs.js",
+    "/testrx/assets/Login-C2PJ4Mji.js",
     "/testrx/assets/Login-Cfe7cDf_.css"
   ],
   "node_modules/unhead/dist/client.mjs": [
@@ -424,7 +424,7 @@
     "/testrx/assets/auth-Dqbap96r.js"
   ],
   "src/api/emotes.js": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
@@ -459,6 +459,14 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/api/movies.kodik.js": [
+    "/testrx/assets/image-back-stars-98NHCG0R.png",
+    "/testrx/assets/icon-donut-DNRHEZkE.png",
+    "/testrx/assets/trn-christmas-lights-CqAqthlw.webp",
+    "/testrx/assets/fa-brands-400-BP5tdqmh.woff2",
+    "/testrx/assets/fa-regular-400-nyy7hhHF.woff2",
+    "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
+  ],
+  "src/api/movies.lampac.js": [
     "/testrx/assets/image-back-stars-98NHCG0R.png",
     "/testrx/assets/icon-donut-DNRHEZkE.png",
     "/testrx/assets/trn-christmas-lights-CqAqthlw.webp",
@@ -526,11 +534,11 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/components/AuthSuccess.vue": [
-    "/testrx/assets/AuthSuccess-c1EqCV7s.js",
+    "/testrx/assets/AuthSuccess-C1uVpk1F.js",
     "/testrx/assets/AuthSuccess-CJM_aawb.css"
   ],
   "src/components/AuthSuccess.vue?vue&type=style&index=0&scoped=43fd4eb0&lang.css": [
-    "/testrx/assets/AuthSuccess-c1EqCV7s.js",
+    "/testrx/assets/AuthSuccess-C1uVpk1F.js",
     "/testrx/assets/AuthSuccess-CJM_aawb.css"
   ],
   "src/components/BackgroundSpace.vue": [
@@ -550,76 +558,76 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/components/BaseModal.vue": [
-    "/testrx/assets/BaseModal-DTWaSYbV.js",
+    "/testrx/assets/BaseModal-CINP2s6S.js",
     "/testrx/assets/BaseModal-Kbep-vMB.css"
   ],
   "src/components/BaseModal.vue?vue&type=style&index=0&scoped=ff8f42fa&lang.css": [
-    "/testrx/assets/BaseModal-DTWaSYbV.js",
+    "/testrx/assets/BaseModal-CINP2s6S.js",
     "/testrx/assets/BaseModal-Kbep-vMB.css"
   ],
   "src/components/CardMovie/CardMovie.vue": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CardMovie/CardMovie.vue?vue&type=style&index=0&scoped=32de8084&lang.css": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CardMovie/CardMovieDetails.vue": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CardMovie/CardMovieDetails.vue?vue&type=style&index=0&scoped=9977ddfa&lang.css": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CardMovie/CardMovieSwipeWrapper.vue": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CardMovie/CardMovieSwipeWrapper.vue?vue&type=style&index=0&scoped=0467ed6e&lang.css": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CardMovie/CardsMovieMainContent.vue": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CardMovie/CardsMovieMainContent.vue?vue&type=style&index=0&scoped=682434e5&lang.css": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CardMovie/index.js": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/CommentItem.vue": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/CommentItem.vue?vue&type=style&index=0&scoped=eae35221&lang.css": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/CommentThread.vue": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/CommentThread.vue?vue&type=style&index=0&scoped=597bf6f3&lang.css": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/Comments.vue": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/Comments.vue?vue&type=style&index=0&scoped=d87a073c&lang.css": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
@@ -632,12 +640,12 @@
     "/testrx/assets/ContactsPage-A2L0UQVl.css"
   ],
   "src/components/EmojiPicker.vue": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/EmojiPicker.vue?vue&type=style&index=0&scoped=c92f1773&lang.css": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
@@ -658,12 +666,12 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/components/ImagePicker.vue": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/ImagePicker.vue?vue&type=style&index=0&scoped=0e971d73&lang.css": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
@@ -684,21 +692,21 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/components/LinkModal.vue": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/LinkModal.vue?vue&type=style&index=0&scoped=a794d83f&lang.css": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/Login.vue": [
-    "/testrx/assets/Login-5wnlARbs.js",
+    "/testrx/assets/Login-C2PJ4Mji.js",
     "/testrx/assets/Login-Cfe7cDf_.css"
   ],
   "src/components/Login.vue?vue&type=style&index=0&scoped=1f0964f4&lang.css": [
-    "/testrx/assets/Login-5wnlARbs.js",
+    "/testrx/assets/Login-C2PJ4Mji.js",
     "/testrx/assets/Login-Cfe7cDf_.css"
   ],
   "src/components/MenuNavigation.vue": [
@@ -782,100 +790,100 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/components/MovieInfo.vue": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/MovieInfo.vue?vue&type=style&index=0&scoped=b0765f8e&lang.css": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/MovieInfoShiki.vue": [
-    "/testrx/assets/MovieInfoShiki-_pB4yqi1.js",
+    "/testrx/assets/MovieInfoShiki-BLHoPGxO.js",
     "/testrx/assets/MovieInfoShiki-BTJlmG-K.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/MovieInfoShiki.vue?vue&type=style&index=0&scoped=ec0cb819&lang.css": [
-    "/testrx/assets/MovieInfoShiki-_pB4yqi1.js",
+    "/testrx/assets/MovieInfoShiki-BLHoPGxO.js",
     "/testrx/assets/MovieInfoShiki-BTJlmG-K.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/MovieList/MovieList.vue": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/MovieList/MovieList.vue?vue&type=style&index=0&scoped=2ac2d72e&lang.css": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/MovieList/index.js": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/MovieRating.vue": [
-    "/testrx/assets/MovieRating-eKkJVwt2.js",
+    "/testrx/assets/MovieRating-BUDCkRF8.js",
     "/testrx/assets/MovieRating-D8yiSUhj.css"
   ],
   "src/components/MovieRating.vue?vue&type=style&index=0&scoped=6d2842d9&lang.css": [
-    "/testrx/assets/MovieRating-eKkJVwt2.js",
+    "/testrx/assets/MovieRating-BUDCkRF8.js",
     "/testrx/assets/MovieRating-D8yiSUhj.css"
   ],
   "src/components/MovieSearch.vue": [
-    "/testrx/assets/MovieSearch-BvnbrQDR.js",
+    "/testrx/assets/MovieSearch-Ch7eZSwG.js",
     "/testrx/assets/MovieSearch-n00CUinv.css"
   ],
   "src/components/MovieSearch.vue?vue&type=style&index=0&scoped=d6e4396b&lang.css": [
-    "/testrx/assets/MovieSearch-BvnbrQDR.js",
+    "/testrx/assets/MovieSearch-Ch7eZSwG.js",
     "/testrx/assets/MovieSearch-n00CUinv.css"
   ],
   "src/components/NotFound.vue": [
-    "/testrx/assets/NotFound-DmNtOOEg.js",
+    "/testrx/assets/NotFound-ChEu8VNi.js",
     "/testrx/assets/NotFound-DuMelxPd.css"
   ],
   "src/components/NotFound.vue?vue&type=style&index=0&scoped=29cd650d&lang.css": [
-    "/testrx/assets/NotFound-DmNtOOEg.js",
+    "/testrx/assets/NotFound-ChEu8VNi.js",
     "/testrx/assets/NotFound-DuMelxPd.css"
   ],
   "src/components/NotificationsPage.vue": [
-    "/testrx/assets/NotificationsPage-B8wb2_G-.js",
+    "/testrx/assets/NotificationsPage-BU_h1dq8.js",
     "/testrx/assets/NotificationsPage-CzCnXy5l.css"
   ],
   "src/components/NotificationsPage.vue?vue&type=style&index=0&scoped=322b1869&lang.css": [
-    "/testrx/assets/NotificationsPage-B8wb2_G-.js",
+    "/testrx/assets/NotificationsPage-BU_h1dq8.js",
     "/testrx/assets/NotificationsPage-CzCnXy5l.css"
   ],
   "src/components/PlayerComponent.vue": [
-    "/testrx/assets/PlayerComponent-t_4lhHWW.js",
-    "/testrx/assets/PlayerComponent-C8yuEGo6.css"
+    "/testrx/assets/PlayerComponent-DRUVo1t2.js",
+    "/testrx/assets/PlayerComponent-DENnDg7c.css"
   ],
-  "src/components/PlayerComponent.vue?vue&type=style&index=0&scoped=4a1a1c60&lang.css": [
-    "/testrx/assets/PlayerComponent-t_4lhHWW.js",
-    "/testrx/assets/PlayerComponent-C8yuEGo6.css"
+  "src/components/PlayerComponent.vue?vue&type=style&index=0&scoped=06f143d5&lang.css": [
+    "/testrx/assets/PlayerComponent-DRUVo1t2.js",
+    "/testrx/assets/PlayerComponent-DENnDg7c.css"
   ],
   "src/components/PlayerModal.vue": [
-    "/testrx/assets/PlayerComponent-t_4lhHWW.js",
-    "/testrx/assets/PlayerComponent-C8yuEGo6.css"
+    "/testrx/assets/PlayerComponent-DRUVo1t2.js",
+    "/testrx/assets/PlayerComponent-DENnDg7c.css"
   ],
-  "src/components/PlayerModal.vue?vue&type=style&index=0&scoped=ca377e21&lang.css": [
-    "/testrx/assets/PlayerComponent-t_4lhHWW.js",
-    "/testrx/assets/PlayerComponent-C8yuEGo6.css"
+  "src/components/PlayerModal.vue?vue&type=style&index=0&scoped=e079fbb5&lang.css": [
+    "/testrx/assets/PlayerComponent-DRUVo1t2.js",
+    "/testrx/assets/PlayerComponent-DENnDg7c.css"
   ],
   "src/components/RandomMovieModal.vue": [
-    "/testrx/assets/MovieSearch-BvnbrQDR.js",
+    "/testrx/assets/MovieSearch-Ch7eZSwG.js",
     "/testrx/assets/MovieSearch-n00CUinv.css"
   ],
   "src/components/RandomMovieModal.vue?vue&type=style&index=0&scoped=aee0940a&lang.css": [
-    "/testrx/assets/MovieSearch-BvnbrQDR.js",
+    "/testrx/assets/MovieSearch-Ch7eZSwG.js",
     "/testrx/assets/MovieSearch-n00CUinv.css"
   ],
   "src/components/Settings.vue": [
-    "/testrx/assets/Settings-Sj7VQ6zx.js",
-    "/testrx/assets/Settings-CRbLvsA5.css"
+    "/testrx/assets/Settings-ByhsQNqU.js",
+    "/testrx/assets/Settings-THEKWE00.css"
   ],
-  "src/components/Settings.vue?vue&type=style&index=0&scoped=4bf048e6&lang.css": [
-    "/testrx/assets/Settings-Sj7VQ6zx.js",
-    "/testrx/assets/Settings-CRbLvsA5.css"
+  "src/components/Settings.vue?vue&type=style&index=0&scoped=079079bc&lang.css": [
+    "/testrx/assets/Settings-ByhsQNqU.js",
+    "/testrx/assets/Settings-THEKWE00.css"
   ],
   "src/components/SpinnerLoading.vue": [
     "/testrx/assets/SpinnerLoading-Dg4_9ZM3.js",
@@ -886,53 +894,53 @@
     "/testrx/assets/SpinnerLoading-BVmMQb0V.css"
   ],
   "src/components/ThemeSelector.vue": [
-    "/testrx/assets/Settings-Sj7VQ6zx.js",
-    "/testrx/assets/Settings-CRbLvsA5.css"
+    "/testrx/assets/Settings-ByhsQNqU.js",
+    "/testrx/assets/Settings-THEKWE00.css"
   ],
   "src/components/ThemeSelector.vue?vue&type=style&index=0&scoped=d23cf1be&lang.css": [
-    "/testrx/assets/Settings-Sj7VQ6zx.js",
-    "/testrx/assets/Settings-CRbLvsA5.css"
+    "/testrx/assets/Settings-ByhsQNqU.js",
+    "/testrx/assets/Settings-THEKWE00.css"
   ],
   "src/components/TopMovies.vue": [
-    "/testrx/assets/TopMovies-BFKEMLyE.js",
+    "/testrx/assets/TopMovies-CSZ7U6N2.js",
     "/testrx/assets/TopMovies-BYd2UT9B.css"
   ],
   "src/components/TopMovies.vue?vue&type=style&index=0&scoped=743f5951&lang.css": [
-    "/testrx/assets/TopMovies-BFKEMLyE.js",
+    "/testrx/assets/TopMovies-CSZ7U6N2.js",
     "/testrx/assets/TopMovies-BYd2UT9B.css"
   ],
   "src/components/TrailerCarousel.vue": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/TrailerCarousel.vue?vue&type=style&index=0&scoped=6e95e8be&lang.scss": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/components/User.vue": [
-    "/testrx/assets/User-Duc3krKC.js",
+    "/testrx/assets/User-Dc4e78Zy.js",
     "/testrx/assets/User-DcOAGWZg.css"
   ],
   "src/components/User.vue?vue&type=style&index=0&scoped=27307cba&lang.css": [
-    "/testrx/assets/User-Duc3krKC.js",
+    "/testrx/assets/User-Dc4e78Zy.js",
     "/testrx/assets/User-DcOAGWZg.css"
   ],
   "src/components/UserLists.vue": [
-    "/testrx/assets/UserLists-C1FL6fRH.js",
+    "/testrx/assets/UserLists-DHaNhbZh.js",
     "/testrx/assets/UserLists-D6gyQJ2R.css"
   ],
   "src/components/UserLists.vue?vue&type=style&index=0&scoped=d02eedc6&lang.css": [
-    "/testrx/assets/UserLists-C1FL6fRH.js",
+    "/testrx/assets/UserLists-DHaNhbZh.js",
     "/testrx/assets/UserLists-D6gyQJ2R.css"
   ],
   "src/components/buttons/DeleteButton.vue": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/buttons/DeleteButton.vue?vue&type=style&index=0&scoped=300f8e46&lang.css": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/buttons/ToggleMenu.vue": [
@@ -952,7 +960,7 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/components/icons/TrashIcon.vue": [
-    "/testrx/assets/MovieList-CQ6phXyr.js",
+    "/testrx/assets/MovieList-3Ew4n32n.js",
     "/testrx/assets/MovieList-CETs1p1_.css"
   ],
   "src/components/notification/NotificationBadge.vue": [
@@ -972,27 +980,27 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/components/notification/NotificationItem.vue": [
-    "/testrx/assets/NotificationsPage-B8wb2_G-.js",
+    "/testrx/assets/NotificationsPage-BU_h1dq8.js",
     "/testrx/assets/NotificationsPage-CzCnXy5l.css"
   ],
   "src/components/notification/NotificationItem.vue?vue&type=style&index=0&scoped=82f9434f&lang.css": [
-    "/testrx/assets/NotificationsPage-B8wb2_G-.js",
+    "/testrx/assets/NotificationsPage-BU_h1dq8.js",
     "/testrx/assets/NotificationsPage-CzCnXy5l.css"
   ],
   "src/components/notification/ToastMessage.vue": [
-    "/testrx/assets/ToastMessage-CMQNS02x.js",
+    "/testrx/assets/ToastMessage-DH7Ix_C8.js",
     "/testrx/assets/ToastMessage-D-ib99Qy.css"
   ],
   "src/components/notification/ToastMessage.vue?vue&type=style&index=0&scoped=174205d5&lang.css": [
-    "/testrx/assets/ToastMessage-CMQNS02x.js",
+    "/testrx/assets/ToastMessage-DH7Ix_C8.js",
     "/testrx/assets/ToastMessage-D-ib99Qy.css"
   ],
   "src/components/slider/SliderRound.vue": [
-    "/testrx/assets/SliderRound-DMxp9qa3.js",
+    "/testrx/assets/SliderRound-PaAHSfoT.js",
     "/testrx/assets/SliderRound-E7GHfgbV.css"
   ],
   "src/components/slider/SliderRound.vue?vue&type=style&index=0&scoped=8256b4a1&lang.css": [
-    "/testrx/assets/SliderRound-DMxp9qa3.js",
+    "/testrx/assets/SliderRound-PaAHSfoT.js",
     "/testrx/assets/SliderRound-E7GHfgbV.css"
   ],
   "src/composables/useAppSetup.js": [
@@ -1004,7 +1012,7 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/composables/useCommentActions.js": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
@@ -1012,22 +1020,22 @@
     "/testrx/assets/useCommentFormatting-BlMBcnrL.js"
   ],
   "src/composables/useEmojiPicker.js": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/composables/useImagePicker.js": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/composables/useLinkModal.js": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
   "src/composables/useNotificationService.js": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
@@ -1040,7 +1048,7 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/composables/useTextareaAutoResize.js": [
-    "/testrx/assets/MovieInfo-Cv00AE8g.js",
+    "/testrx/assets/MovieInfo-CzPadtxA.js",
     "/testrx/assets/MovieInfo-E-DaMT-R.css",
     "/testrx/assets/icon-shikimori-DGvXK9Jc.svg"
   ],
@@ -1067,8 +1075,8 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/helpers/ui.js": [
-    "/testrx/assets/PlayerComponent-t_4lhHWW.js",
-    "/testrx/assets/PlayerComponent-C8yuEGo6.css"
+    "/testrx/assets/PlayerComponent-DRUVo1t2.js",
+    "/testrx/assets/PlayerComponent-DENnDg7c.css"
   ],
   "src/main.js": [
     "/testrx/assets/image-back-stars-98NHCG0R.png",
@@ -1145,10 +1153,10 @@
     "/testrx/assets/fa-solid-900-DRAAbZTg.woff2"
   ],
   "src/store/player/index.js": [
-    "/testrx/assets/player-DK-93Oe0.js"
+    "/testrx/assets/player-DtoL5mxl.js"
   ],
   "src/store/player/player.js": [
-    "/testrx/assets/player-DK-93Oe0.js"
+    "/testrx/assets/player-DtoL5mxl.js"
   ],
   "src/store/theme.js": [
     "/testrx/assets/image-back-stars-98NHCG0R.png",
@@ -1191,8 +1199,8 @@
     "/testrx/assets/auth-Dqbap96r.js"
   ],
   "src/utils/obsWebSocket.js": [
-    "/testrx/assets/PlayerComponent-t_4lhHWW.js",
-    "/testrx/assets/PlayerComponent-C8yuEGo6.css"
+    "/testrx/assets/PlayerComponent-DRUVo1t2.js",
+    "/testrx/assets/PlayerComponent-DENnDg7c.css"
   ],
   "src/utils/ratingUtils.js": [
     "/testrx/assets/image-back-stars-98NHCG0R.png",
